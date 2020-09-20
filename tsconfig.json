@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "sourceMap": true,
+    "target": "es5",
+    "lib": ["es5", "dom", "es2015.promise"],
+    "jsx": "react",
+    "jsxFactory": "createElement",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src", "node_modules/@types", "types", "test", "mock"]
+}
